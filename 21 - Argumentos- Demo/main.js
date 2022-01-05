@@ -110,6 +110,6 @@ function eligeplan(plan = 'basico', tiposus = 'mensual') {
 }
 
 
-console.log(`El monto de tu suscripción es: $` + eligeplan('duo', 'anual'));
-document.getElementById('suscripcion').innerHTML = `<h2>El monto de tu suscripción es: $ ${eligeplan('basico', 'mensual')}</h2> `;
+console.log(`El monto de tu suscripción es: $` + eligeplan('basico', 'anual'));
+document.getElementById('suscripcion').innerHTML = `<h2>El monto de tu suscripción es: $ ${eligeplan('basico', 'anual')}</h2> `;
 
