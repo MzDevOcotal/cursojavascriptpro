@@ -36,6 +36,20 @@ const gradosCaK2 = (valor) => {
 }
 console.log(gradosCaK2(4));
 
-//CONVERTIR GRADOS A KELVIN | SINTAXIS FLECHAS MÁS SIMPLIFICADA
+//CONVERTIR GRADOS A KELVIN | SINTAXIS FLECHAS MÁS SIMPLIFICADA | Si es solo una línea se puede omitir el return
 const gradosCaK3 = valor => valor * 274.15;
-console.log(gradosCaK3(12));
+console.log(gradosCaK3(5));
+
+
+/* FUNCIONES ANÓNIMAS */
+//Las funciones anónimasestán encapsuladas - Las variables dentro de ella no pueden 
+// ser vistas fuera de su contexto.
+
+(function(){
+  console.log("Esto es una Función Anónima");
+})();
+
+/* FUNCIONES ANÓNIMAS DE FLECHA */
+(()=>{
+  console.log("Esto es una Función Anónima de Flecha");
+})();
