@@ -1,5 +1,6 @@
 
-
+/* Escenario de un juego en el cual la 
+variable objeto se inicializa con la palabra "abismo" */
 let objeto = "abismo";
 switch(objeto){
     case "enemigo":
