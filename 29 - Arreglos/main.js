@@ -34,3 +34,11 @@ for (let index = 0; index < nombre.length; index++) {
     console.log(nombre[index]);
 }
     console.log("Finaliza For");
+
+
+/* PROBANDO ARREGLO DE OBJETO */
+    let objeto = [
+        {"Nombre":'Mario', "Edad":45},{"Nombre":'Juan', "Edad":25}
+    
+    ];
+    console.log(objeto);
