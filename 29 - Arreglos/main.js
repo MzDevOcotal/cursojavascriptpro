@@ -37,8 +37,9 @@ for (let index = 0; index < nombre.length; index++) {
 
 
 /* PROBANDO ARREGLO DE OBJETO */
+console.log("PROBANDO ARREGLO DE OBJETO");
     let objeto = [
-        {"Nombre":'Mario', "Edad":45},{"Nombre":'Juan', "Edad":25}
+        {"Nombre":'Mario', "Edad":45, "Sexo":'Hombre'},{"Nombre":'Juan', "Edad":25}
     
     ];
     console.log(objeto);
